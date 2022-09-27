@@ -29,6 +29,9 @@
             <td>
                 Patient Weight
             </td>
+            <td>
+                Patient Picture
+            </td>
         </tr>
         <?php
         $servername = "mysql";
@@ -66,6 +69,9 @@
                 </td>
                 <td>
                     <?= $r['patient_weight'] ?>
+                </td>
+                <td>
+                    <?= $r['patient_image'] ?>
                 </td>
             </tr>
         <?php
